@@ -98,7 +98,7 @@ public class ApplianceOperatorTest {
 	}
 	
 	// testing the oven
-	// the over uses undo so that it can revert to its previous temperature
+	// the oven uses undo so that it can revert to its previous temperature
 	@Test 
 	public void testOven() {
 		System.out.println("\nTesting Oven....");
